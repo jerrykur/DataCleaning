@@ -21,21 +21,20 @@ The code in the project users R to read this data and created a tidy dataset fro
 	
 	3.	User descriptive activity names to name the activities in the data set.  
 	
-	In this step 
-	a new column was add to the data set that contained the Activity description associated with the Activity ID.
+	In this step a new column was add to the data set that contained the Activity description 
+	associated with the Activity ID.
 	
 	4.	Appropiately label the dataset with descriptive variable names.
 	
-	 During this step, 
-	 minor renaming of the measurement columns was performed. Also, the Activity ID column 
-	 was dropped since we already had an Activity Name column.
+	 During this step, minor renaming of the measurement columns was performed. Also, the 
+	 Activity ID column was dropped since we already had an Activity Name column.
 	
 	5. 	From data set in step 4, create a second, independent tidy data set with the average of 
 	each activity variable for each activity and each subject.
 	
 	In this step the data was "melted" from a "short and wide" data set with dozens of 
 	column of values for each measurement to a "tall and skinny" dataset that containing only 
-	4 columns for the SubjectID, ActivtyName, Measurement name and associated value. Structurally 
+	4 columns for the SubjectID, ActivityName, Measurement Name and Associated value. Structurally 
 	this changed the data set from 10299 rows with 50 columns to 494352 rows with 4 columns.  
 	I prefer tall and skinny because they are operated on faster in databases and if you have 
 	a lot of columns you may exceed the maximum row width for the database.  
